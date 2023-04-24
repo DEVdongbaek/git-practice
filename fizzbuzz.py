@@ -6,6 +6,9 @@ def do_fizzbuzz(num:int):
         elif i%5 ==0:
             print('buzz')
         
+        elif i%15==0:
+            print('pizzbuzz')
+
         else:
             print(f'{i}')
 
